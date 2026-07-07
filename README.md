@@ -8,5 +8,5 @@ while IFS= read -r surname; do
   for prefix in "${prefixes[@]}"; do
     echo "${surname}_${prefix}"
   done
-done < surnames.txt
+done < russian_lastnames.txt
 ```
